@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 Take Percentage</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/js/percentage.js" defer></script>
+</head>
+
+<body>
+
+    <div class="flex flex-col gap-7 justify-center items-center min-h-screen text-center">
+
+        <h1 id="percentage" class="text-2xl font-semibold">Percentage: 0</h1>
+
+        <div class="flex flex-col gap-3">
+            <input id="input1" type="text" placeholder="Enter numbers.."
+                class="input input-bordered input-accent w-full max-w-xs" />
+        </div>
+
+        <div class="flex flex-col gap-3">
+            <input id="input2" type="text" placeholder="Enter total numbers.."
+                class="input input-bordered input-accent w-full max-w-xs" />
+        </div>
+
+        <button class="btn btn-accent">Calculate percentage 🦗</button>
+
+    </div>
+
+    <!-- alert  -->
+    <div class="toast hidden">
+        <div class="alert alert-error">
+            <span>☠ Enter valid numbers</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
